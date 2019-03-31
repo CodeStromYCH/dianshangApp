@@ -1,0 +1,63 @@
+a,
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+.wjs-header {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.wjs-header .row > div {
+  height: 40px;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  line-height: 40px;
+}
+.wjs-header .row div:last-child {
+  border-right: none;
+}
+.wjs-header .row .btn-register {
+  padding: 2px 10px;
+  margin-right: 10px;
+}
+.wjs-nav {
+  margin-bottom: 0;
+}
+.wjs-nav .row {
+  height: 80px;
+}
+.wjs-nav .row .wei {
+  width: 165px;
+  height: 80px;
+}
+.wjs-nav .row li {
+  box-sizing: border-box;
+}
+.wjs-nav .row li:hover {
+  border-bottom: 2px solid red;
+}
+.wjs-nav .row a {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+.wjs-nav .row .gr {
+  padding-left: 20px;
+}
+.wjs-nav .row .active {
+  background-color: none;
+  border-bottom: 2px solid red;
+}
+.wjs-nav .row .btn {
+  height: 40px;
+  margin-top: 20px;
+}
+.wjs-banner {
+  height: 410px;
+}
+.wjs-banner .carousel-inner > .item > img {
+  display: block;
+  width: auto;
+  height: 100%;
+  /* Or try to use important */
+}

@@ -1,0 +1,381 @@
+a,
+a:hover{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    height: 2600px;
+}
+ul,
+ol{
+    list-style: none;
+}
+
+// 微金所头部 
+.wjs-header{
+    border-bottom: 1px solid #ccc;
+    .container{
+        .row{
+            >div{
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                border-right: 1px solid #ccc;
+                .riginer{
+                    color: #fff;
+                    padding: 2px 13px;
+                    margin-right: 15px;
+                }
+                a{
+                    color: #333;
+                }
+            }
+            >div:last-child{
+                border-right: none;
+            }
+            
+        }
+    }
+}
+//微金所导航
+.wjs-nav{
+    .logo{
+        font-size: 50px;
+        vertical-align: middle;
+        color: red;
+    }
+    .word{
+        font-size: 36px;
+        vertical-align: middle;
+        color: #333333;
+    }
+    .wjs-navbar {
+        border-color: #e7e7e7;
+        margin-bottom: 0px;
+      }
+      .wjs-navbar .navbar-brand {
+          height: 80px;
+          line-height: 50px;
+      }
+      .wjs-navbar .navbar-brand:hover,
+      .wjs-navbar .navbar-brand:focus {
+        color: #5e5e5e;
+        background-color: transparent;
+      }
+      .wjs-navbar .navbar-text {
+        color: #777;
+      }
+      .wjs-navbar .navbar-nav > li > a {
+          height: 80px;
+          line-height: 50px;
+          color: #777;
+      }
+      .wjs-navbar .navbar-nav > li > a:hover,
+      .wjs-navbar .navbar-nav > li > a:focus {
+        color: #333;
+        background-color: transparent;
+        border-bottom: 2px solid red;
+      }
+      .wjs-navbar .navbar-nav > .active > a,
+      .wjs-navbar .navbar-nav > .active > a:hover,
+      .wjs-navbar .navbar-nav > .active > a:focus {
+        color: #555;
+      }
+      .wjs-navbar .navbar-nav > .disabled > a,
+      .wjs-navbar .navbar-nav > .disabled > a:hover,
+      .wjs-navbar .navbar-nav > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+      }
+      .wjs-navbar .navbar-toggle {
+          margin-top: 23px;
+        border-color: #ddd;
+      }
+      .wjs-navbar .navbar-toggle:hover,
+      .wjs-navbar .navbar-toggle:focus {
+        background-color: #ddd;
+      }
+      .wjs-navbar .navbar-toggle .icon-bar {
+        background-color: #888;
+      }
+      @media screen and (max-width:768px){
+        
+        .wjs-navbar .navbar-brand {
+            height: 50px;
+            line-height: 20px;
+        }
+        .wjs-navbar .navbar-toggle {
+            margin-top: 8px;
+          border-color: #ddd;
+        }
+        .wjs-navbar .navbar-nav > li > a{
+            height: 50px;
+            line-height: 20px;
+            color: #777;
+        }
+          
+      }
+}
+//微金所轮播图
+.wjs-banner{
+    .pc-img{
+        height: 410px;
+        background-position: center;
+    }
+    .m-img{
+        width: 100%;
+    }
+}
+// 微金所交易保障
+.wjs-save{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    .container{
+        .row{
+            margin-top: 30px;
+
+            >div{
+                margin-bottom: 15px;
+                span{
+                    font-size: 30px;
+                }
+            }
+            .in{
+                    height: 50px;
+                    // background-color: red;
+            }
+        }
+    }
+}
+// 设置大屏版心为970px
+@media screen and(min-width:1200px){
+    .wjs-save{
+        .container{
+            width: 970px;
+        }
+    }
+}
+
+//微金所预约
+.wjs-book{
+    border-bottom: 1px solid #ccc;
+    .container{
+        padding: 34px 0 ;
+        p{
+            margin-bottom: 0px;
+        }
+        .co{
+            font-size: 26px;
+            margin-right: 10px;
+        }
+            .book{
+                color: red;
+                border-bottom: 1px dashed red !important;
+        }
+        
+    }
+}
+
+// 微金所tab栏
+.wjs-tabs{
+    padding-bottom: 30px;
+    padding: 30px 0;
+    background-color: #e1e1e1;
+    margin-bottom: 20px;
+    .cut{
+        overflow: auto;
+        
+        .wjs-nav-tabs > li {
+            float: left;
+        }
+        .wjs-nav-tabs > li > a {
+            line-height: 1.42857143;
+            border-radius: 4px 4px 0 0;
+        }
+        .wjs-nav-tabs > li > a:hover {
+            border-bottom: 2px solid red;
+            background-color: transparent;
+        }
+        .wjs-nav-tabs > li.active > a,
+        .wjs-nav-tabs > li.active > a:hover,
+        .wjs-nav-tabs > li.active > a:focus {
+            border-bottom: 2px solid red;
+            background-color: transparent;
+        }
+    }
+    
+    .r{
+        height: 150px;
+        .in{    
+                padding-bottom: 20px;
+                position: relative;
+                overflow: hidden;
+                margin-top: 20px;
+                height: 150px;
+                background-color: red;
+                color: #fff;
+                .ri{
+                    width: 70%;
+                    margin-top: 16px;
+                    text-align: center;
+                    p{
+                        margin: 0;
+                    }
+                    .let{
+                        padding-left: 10px;
+                        line-height: 20px;
+                        // padding-right: 66px;
+                        text-align: left;
+                    }
+                    .rig{
+                        // padding-left: 66px;
+                        text-align: right;
+                        line-height: 20px;
+                    }
+                }
+                
+        }
+        
+        .liv{
+            position: relative;
+            width: 80px;
+            height: 100%;
+            padding-top: 40px;
+            text-align: center;
+            p{
+                margin: 10px;
+            }
+            .big{
+                font-size: 30px;
+            }
+            border-left: 1px dashed #fff;
+        }
+        .liv::before,
+        .liv::after{
+            top: -7px;
+            left: -7px;
+            position: absolute;
+            content: "";
+            display: block;
+            background-color: #eee;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+        }
+        .liv::after{
+            top: auto;
+            bottom: -26px;
+        
+        }
+       
+    }
+    .in::before{
+        position: absolute;
+        top: -7px;
+        left: 0px;
+        width: 40px;
+        height: 40px;
+        // background-color: yellow;
+        content: "\e915";
+        font-family: "wjs_fonts";
+        font-size: 36px;
+        display: block;
+        color: #fff;
+    }
+    
+}
+//新闻
+.wjs-news{
+    .wjs-news-tabs {
+      }
+      .wjs-news-tabs ul{
+        border: none;
+      }
+      .wjs-news-tabs > li {
+        float: left;
+      }
+      .wjs-news-tabs > li > a {
+          text-align: center;
+          width: 60px;
+          height: 60px;
+          line-height: 40px;
+          background-color: #ccc;
+          margin-top: 40px;
+          border-radius: 50%;
+          font-size: 30px;
+          padding: 10px 15px;
+      }
+      .wjs-news-tabs > li > a:hover {
+          background-color: red;
+          color: #fff;
+      }
+      .wjs-news-tabs > li.active > a,
+      .wjs-news-tabs > li.active > a:hover,
+      .wjs-news-tabs > li.active > a:focus {
+        color: #fff;
+        background-color: red;
+        border-bottom-color: transparent;
+      }
+    
+    h4{
+        margin-top: 35px;
+        text-align: center;
+        position: relative;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    h4::after{
+        position: absolute;
+        bottom:-5px;
+        right:-9px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        border: 1px solid #ccc;
+    }
+    #new1{
+        margin-top: 30px;
+        ul{
+            
+            li{
+                line-height: 40px;
+            }
+        }
+    }
+    border-bottom: 1px solid #ccc;
+}
+@media screen and(max-width:992px){
+    .tt{
+        ul>li{
+            float: left;
+            width: 25%;
+        }
+    }
+    .td{
+        ul{
+            margin-left: 0px;
+           li{
+            margin-bottom: 20px;
+           } 
+        }
+        
+    }
+}
+
+.wjs-foot{
+    h1{
+        text-align: center;
+    }
+    ul{
+    padding-left: 130px;
+    }
+    ul>li{
+
+        margin:0 20px;
+        float: left;
+        font-size: 60px;
+    }
+}
